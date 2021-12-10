@@ -1,0 +1,222 @@
+body{
+    background-image: url("wallpaper_1.png");
+    background-repeat: no-repeat, repeat;
+    margin: auto;
+}
+
+/*header starts*/
+#navbar{
+    height:1000px;
+    width:20%;
+    /*border: 2px solid red;*/
+    background-color:#baa8f5;
+    float: left;
+    margin-left:2%;
+}
+#profilePicture{
+    border:2px solid white;
+    margin-top: 21%;
+    margin-left:18%;
+    margin-right:2%;
+    height:177px;
+    width: 64%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.profilePic{
+    height:178px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+#ProfileName{
+    font-style: bold;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: black !important;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    position: absolute;
+}
+.info{
+    color: #40403E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+/*header ends*/
+
+/*content starts*/
+#Content{
+    height:1000px;
+    width:70%;
+    /*border: 2px solid red;*/
+    background-color:#EBEBED;
+    display: inline-block;
+    margin-left:2%;
+}
+#Social{
+    width:100%;
+    height: 100px;
+    border-bottom: 2%;
+    background-color: #EBEBED ;
+    /*border: 2px solid red;*/
+}
+#icon{
+    
+    margin-top: 3%;
+    margin-left: 80%;
+}
+/*icon design starts*/
+.fa{
+    padding: 5px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-facebook {
+    background: #090dec;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: #35df52;
+    color: white;
+}
+.fa-instagram {
+    background: #9F0903;
+    color: white;
+}
+/*icon design ends*/
+
+#About{
+    width:100%;
+    height: 230px;
+    border-bottom: 2%;
+    /*border: 2px solid red;*/
+    /*box-shadow: 10px 15px 10px gray;*/
+    margin-top: 2%; 
+    background-color: #EBEBED ;
+}
+#intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-display: bold;
+    color: #07703C;
+    text-align: left;
+    margin-left:2%;
+}
+#Skills{
+    width:100%;
+    height: 200px;
+    border-bottom: 2%;
+    /*border: 2px solid red;*/
+    /*box-shadow: 10px 15px 10px gray;*/
+    margin-top: 2%;
+    background-color: #EBEBED ;
+}
+.imgDecor{
+    height: 70px;
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 8%;
+    display: inline;
+}
+#Hobbies{
+    width:100%;
+    height: 200px;
+    border-bottom: 2%;
+    /*border: 2px solid red;*/
+    /*box-shadow: 10px 15px 10px gray;*/
+    margin-top: 2%;
+    background-color: #EBEBED ;
+}
+.hobbyDecor{
+    height: 80px;
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 18%;
+    display: inline;
+}
+#Education{
+    width:100%;
+    height: 150px;
+    margin-top: 2%;
+    border-bottom: 2%;
+    /*border: 2px solid red;*/
+    /*box-shadow: 10px 15px 10px gray;*/
+    background-color: #EBEBED ;
+}
+#heading{
+    width: 99.7%;
+    height: 40px;
+    /*border: 2px solid blue;*/
+    background-color: #baa8f5;
+    font-weight: 100;
+}
+#eduInfo{
+    height: 60px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    /*border: 2px solid black;*/
+    background-color: #EBEBED ;
+}
+
+/*contact starts*/
+#Contact {
+    height:500px;
+    width:93%;
+    margin-top: 5%;
+    /*border: 2px solid red;*/
+    background-color: rgb(231, 222, 222);
+    display: inline-block;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    /*box-shadow : 10px 15px 10px gray;*/
+}
+#map{
+    float: left;
+    height: 400px;
+    width: 45%;
+    /*border: 2px solid red;*/
+    margin-left: 2% 
+}
+#message{
+    float: left;
+    height: 400px;
+    width: 45%;
+    /*border: 2px solid gray;*/
+    margin-left: 6%;
+}
+#messageInfo{
+    display: inline;
+}
+/*contact ends*/
+
+/*footer starts*/
+#footer{
+    background-color: rgb(58, 53, 53);
+    color: #fdf6f6;
+}
+.logo{
+    color:#fdf6f6;
+}
+/*footer ends*/
